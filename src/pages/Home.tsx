@@ -1,10 +1,17 @@
-// NO TOCAR ESTE ARCHIVO!!!!
 import { Link } from "react-router"
+
+import HeroWallpaper from "../assets/images/wallpaper1.jpg"
 
 function Home() {
     return (
         <main>
-            <h1>ICINF</h1>
+            <header className="hero">    
+                <hgroup>
+                    <h1>Innovación, Software y Liderazgo Tecnológico</h1>
+                    <p>Subtitulo</p>
+                </hgroup>
+            </header>
+            <article></article>
         </main>
     )
 }

@@ -1,0 +1,115 @@
+a {
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 100dvw;
+    height: 400px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.brandColumn {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.brandContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.institutionInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.institutionInfo > p:nth-child(1) {
+    font-weight: bold;
+}
+
+.careerDescription {
+    font-size: 14px;
+}
+
+
+.logoWrapper {
+    height: auto;
+    width: 150px;
+}
+
+.logoWrapper > img {
+    width: 100%;
+}
+
+.socials {
+    height: 20px;
+    width: auto;
+}
+
+.socials > img {
+    height: 100%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.navSection {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.navList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 24px;
+}
+
+.navTitle {
+    font-weight: bold;
+}
+
+.navList > a {
+    color: #CBC9C9;
+
+    &:hover {
+        color: #FFFFFF;
+    }
+
+    &:active {
+        color: var(--red-ua);
+    }
+}
+
+.bottomSection {
+    border-top: 1px solid #FFFFFF;
+}
+
+.bottomSection > div {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.devclubBrand {
+    color: var(--red-ua);
+}
