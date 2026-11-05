@@ -35,3 +35,17 @@ main {
     padding: 0 2rem 2rem 2rem;
     width: 100dvw;
 }
+
+.homeContent {
+    padding: 2rem;
+}
+
+.secondaryLink {
+    color: #000000;
+}
+
+.groupSectionLink {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
