@@ -1,0 +1,27 @@
+.activityCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    background-color: black;
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    padding: 1rem;
+
+}
+
+.activityCardV2 {
+    background-color: black;
+    color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 300px;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 24px;
+}

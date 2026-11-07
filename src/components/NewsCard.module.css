@@ -1,0 +1,33 @@
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 1rem;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6)), 
+        url("https://www.uautonoma.cl/content/uploads/2024/06/temuco-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 350px;
+    width: 650px;
+    border-radius: 24px;
+}
+
+.secondaryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    color: #FFFFFF;
+    height: 350px;
+    width: 450px;
+    padding: 1rem;
+    border-radius: 24px;
+    background-size: cover;
+    background-position: center;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6)), 
+        url("https://www.uautonoma.cl/content/uploads/2023/07/universidad-autonoma-estudiantes-fachada-areas-verdes-temuco-2-800x450.jpg");
+}
