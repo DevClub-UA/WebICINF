@@ -1,0 +1,24 @@
+.groupCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    height: 400px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 2rem;
+}
+
+.groupCardSocials {
+    height: 32px;
+}
+
+.groupCardSocials > img {
+    height: 100%;
+}
+
+.groupCardDescription {
+    width: 600px;
+    height: auto;
+}

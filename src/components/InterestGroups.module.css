@@ -1,0 +1,16 @@
+.interestGroups {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.groupSectionLink {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        border-bottom: 2px solid var(--red-ua);
+    }
+}

@@ -3,6 +3,8 @@ import { ArrowRight } from "lucide-react"
 
 import { MainCard, SecondaryCard } from "../components/NewsCard.tsx"
 import { ActivityCard, ActivityCardV2 } from "../components/ActivityCard.tsx"
+import InterestGroups from "../components/InterestGroups.tsx"
+
 
 import HeroWallpaper from "../assets/images/wallpaper1.jpg"
 
@@ -42,17 +44,7 @@ function Home() {
                 <section>
                     <h2>Cuerpo Docente y Directiva</h2>
                 </section>
-                <section>
-                    <header className="contentHeader">
-                        <h2>Grupos de Interés</h2>
-                        <section className="groupSectionNav">
-                            <button className="groupSectionLink">DevClub</button>
-                            <button className="groupSectionLink">PyScience</button>
-                            <button className="groupSectionLink">Ciberseguridad</button>
-                            <button className="groupSectionLink">Industrial</button>
-                        </section>
-                    </header>
-                </section>
+                <InterestGroups />
             </div>
         </main>
     )
